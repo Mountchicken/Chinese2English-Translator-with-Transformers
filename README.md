@@ -1,6 +1,6 @@
 # Chinese2English-Translator-with-Transformers
--Hello guys😄, hope you are doing awesome
--In this repository, I Improved my previous chinese2english translator with transformer and it do get a tremendous improvement
+- Hello guys😄, hope you are doing awesome
+- In this repository, I Improved my previous chinese2english translator with transformer and it do get a tremendous improvement
 
 # Examples
 -Here are some translating examples, this model has a great accurancy on the training data(overfitting😥), and 
