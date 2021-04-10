@@ -11,30 +11,26 @@
 - Predicted: <SOS> a brown dog is running on the grass . <EOS>
 - <img src="https://github.com/Mountchicken/Image-Captioning-pytorch/blob/main/text_examples/happy.jpg" width="216" height="288" alt="😀"/><br/>
 - Predicted: <SOS> a woman in a red shirt and a man in a white shirt smile for the camera . <EOS>
-## 项目结构
-### 文件
+- 
+# Requirements
+- `torchtext >= 1.8'
+- `spacy`
+# Structure
+## Files
+- `get_loaderl.py`: Define the dataloader using torchtext
+- `train.py`: Train the model
+- `model.py`: Define the model
+- `inference.py`:Translate your own chinese sentece to english one !!
+## Folders
+- 'saved_vocab`: Contain serval vocabulary txt and you can also generate then during training
+- `translation2019zh`: This is Google's chinese2english translation samples. It's huge and i only take the validation dataset to train
 
-- `Model.py`: 定义Inception_v3模型，LSTM模型
-- `get_loader.py`:定义ImageCaptioning数据集
-- `Train.py`: 训练模型，建议不要修改超参数，因为我发现好像只有特定的超参数才能有较好的训练效果
-- `inferrence`: 测试你自己的图片
+# How to use
+## How to train
+- 'Go inside the train.py, set some hyperparameters if you want or just run it!'
+- 
+## How to translate my own sentence
+- `Go inside the inference.py, set the your own chinese sentence at line 73 
 
-
-### 文件夹
-- `archive`: 存放flickr8k数据集，[下载地址](https://www.kaggle.com/aladdinpersson/flickr8kimagescaptions)
-- `test_examples`:测试图片
-## 如何使用
-
-### 如何训练
-#### 1.下载spacy库所需文件
-- `pip install spacy`
-- `download en_core_web_sm,[download](https://github.com/explosion/spacy-models/releases/tag/en_core_web_sm-3.0.0)
-- `-pip install 安装包`
-#### 2.运行train.py
-### 如何测试自己的图片
-- `修改inferrence中测试图片地址(23行),运行即可
-
-## 联系方式（获取预训练权重）
+# Contact me for trained_weights(too big to upload)
 - mountchicken@outlook.com
-
-
