@@ -11,10 +11,6 @@
 - ![test_example](https://github.com/Mountchicken/Chinese2English-Translator-with-Transformers/tree/main/Image_github/two.png)
 - ![test_example](https://github.com/Mountchicken/Chinese2English-Translator-with-Transformers/tree/main/Image_github/three.png)
 - ![test_example](https://github.com/Mountchicken/Chinese2English-Translator-with-Transformers/tree/main/Image_github/four.png)
-- Predicted: <SOS> a brown dog is running on the grass . <EOS>
-- <img src="https://github.com/Mountchicken/Image-Captioning-pytorch/blob/main/text_examples/happy.jpg" width="216" height="288" alt="😀"/><br/>
-- Predicted: <SOS> a woman in a red shirt and a man in a white shirt smile for the camera . <EOS>
-- 
 # Requirements
 - `torchtext >= 1.8'
 - `spacy`
